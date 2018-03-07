@@ -28,5 +28,16 @@ Spring Boot enables us to quickly build a simple or complicated Web- or Enterpri
 ** In the file: resources/statis/js/main.js you will see that two of the jquery error ajax-error event handlers contain the location.reload() call. This is because, for an unknown reason, the error event is triggered while the call seems to be successful 
 
 == Components
-** Spring
+** JPA
+** H2
+** Web
+** RestRepositories
+** Res Docs
+** Thymeleaf (not really needed)
+
+== Installing and running the app
+** git clone https://github.com/diederv/inventory-management-system.git
+** cd inventory-management-system/
+** mvn spring-boot:run
+** open in a browser: http://localhost:8081/home.html
  
