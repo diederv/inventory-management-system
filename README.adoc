@@ -42,7 +42,6 @@ Spring Boot enables us to quickly build a simple or complicated Web- or Enterpri
 ** open in a browser: http://localhost:8081/home.html
 
 == How does it work?
-![Inventory Management System](https://raw.githubusercontent.com/diederv/inventory-management-system/master/ims_screenshot.png "Inventory Management System")
-
+<img width="966" alt="ims_screenshot" src="https://user-images.githubusercontent.com/2026484/37123565-09eaf63a-2265-11e8-8687-63a17855fdb3.png">
 
  
