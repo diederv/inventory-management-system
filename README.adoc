@@ -43,4 +43,12 @@ Spring Boot enables us to quickly build a simple or complicated Web- or Enterpri
 
 == How does it work?
 image::https://user-images.githubusercontent.com/2026484/37123719-84e7f432-2265-11e8-9f19-54fa7127e99f.png[]
+
+** You see here a screenshot of the app, it shows a list of all the items in the inventory
+** It shows in green which items are overstocked and are ready for a promotion
+** It shows in Red whicj items are understocked and need to be ordered
+** It allows you to create new items in the footer of the table (list)
+** It allows you to create new Categories under the table
+** With the +/- buttons you can increase/decrease the stock number in case you bougyt or sold new items
+:-)
  
