@@ -1,4 +1,4 @@
-= an Inventory management System (IMS) implementation with Spring Boot
+= An Inventory management System (IMS) implementation with Spring Boot
 
 This project shows the usage of the Spring Boot framework for the implementation of an coding assignment
 
@@ -40,4 +40,7 @@ Spring Boot enables us to quickly build a simple or complicated Web- or Enterpri
 ** cd inventory-management-system/
 ** mvn spring-boot:run
 ** open in a browser: http://localhost:8081/home.html
+
+== How does it work?
+![Inventory Management System](blob/master/ims_screenshot.png?raw=true "Inventory Management System")
  
