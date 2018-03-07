@@ -42,6 +42,5 @@ Spring Boot enables us to quickly build a simple or complicated Web- or Enterpri
 ** open in a browser: http://localhost:8081/home.html
 
 == How does it work?
-<img width="966" alt="ims_screenshot" src="https://user-images.githubusercontent.com/2026484/37123565-09eaf63a-2265-11e8-8687-63a17855fdb3.png">
-
+![Screenshot of the Inventory Management System](https://user-images.githubusercontent.com/2026484/37123719-84e7f432-2265-11e8-9f19-54fa7127e99f.png)
  
