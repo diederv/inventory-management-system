@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xlmns:ok="http://www.okit.com/nl">
+	<head>
+		<title>Inventory Management System</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+				
+		<!-- Bootstrap - Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+				
+	</head>	
+	<body>
+	
+		<h3>Inventory Management System</h3>
+		
+		<h4>Stock Items:</h4>
+	
+		<table class="table table-striped" id="inventory">
+			<thead>
+				<tr>
+					<th>	Id</th>
+					<th>	Name</th>
+					<th>	Category</th>
+					<th>	Minimal</th>
+					<th>	In Stock</th>
+					<th>Overflow</th>
+					<th />
+					<th />
+				</tr>				
+			</thead>	
+			<tbody />
+			<tfoot>				
+				<tr>
+					<form onsubmit="javascript:return add_form_item(this)">
+					<td>	</td>
+					<td>	<input name="name" type="text" /></td>
+					<td>	<select name="category" id="catSelector" /><!-- input name="category" type="text" /--></td>
+					<td>	<input name="minimal" type="number" /></td>
+					<td>	<input name="stock" type="number" /></td>
+					<td>	<input type="submit" value="Add New Item" /></td>
+					<td />
+					<td />
+					</form>
+				</tr>				
+			</tfoot>		
+		</table>
+		
+		<hr />
+		<table id="categories">
+			<tr>
+				<form onsubmit="javascript:return add_form_category(this)">
+				<td><input name="category"></td>
+				<td>&nbsp;&nbsp;</td>
+				<td>	<input type="submit" value="Add New Category" /></td>
+				</form>
+			</tr>
+		</table>
+		
+		<hr />
+		
+		<div id="feedback"></div>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

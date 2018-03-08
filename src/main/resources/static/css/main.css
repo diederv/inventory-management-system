@@ -1,0 +1,15 @@
+body {
+	padding:40px;
+}
+table#inventory {
+	width: 400px;
+}
+table#categories {
+	width: 100px;
+}
+td.short {
+	background-color:#ffcccc;
+}
+td.abundant {
+	background-color:#ccffcc;
+}
